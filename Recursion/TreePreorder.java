@@ -19,8 +19,6 @@ public class TreePreorder {
         root.left.right = new TreeNode(7);
         root.right.right = new TreeNode(30);
         preorder(root);
-        System.out.println();
-        postorder(root);
     }
     
     static void preorder(TreeNode curr){
