@@ -23,7 +23,7 @@ class Stack {
 class StackDS {
     int stack[], pointer=0;
     
-    Stack(int size){
+    StackDS(int size){
         this.stack = new int[size];
     }
     
