@@ -1,6 +1,6 @@
 class Stack {
     public static void main(String[] args) {
-        Stack stack = new Stack(10);
+        StackDS stack = new StackDS(10);
         stack.push(56);
         stack.push(6);
         stack.push(5);
@@ -20,7 +20,7 @@ class Stack {
     }
 }
 
-class Stack {
+class StackDS {
     int stack[], pointer=0;
     
     Stack(int size){
